@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C 语言学习器</title>
+  <link rel="icon" href="icon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="vendor/codemirror.min.css">
+  <link rel="stylesheet" href="vendor/show-hint.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">C 语言学习器</div>
+      <nav class="nav">
+        <button class="nav-item active" data-page="lessons"><span class="dot"></span>课程</button>
+        <button class="nav-item" data-page="quiz"><span class="dot"></span>测验</button>
+        <button class="nav-item" data-page="oj"><span class="dot"></span>OJ 刷题</button>
+        <button class="nav-item" data-page="wrongbook"><span class="dot"></span>错题本</button>
+        <button class="nav-item" data-page="mycode"><span class="dot"></span>通过代码</button>
+        <button class="nav-item" data-page="progress"><span class="dot"></span>进度</button>
+        <button class="nav-item" data-page="about"><span class="dot"></span>关于</button>
+      </nav>
+      <div class="days" id="days">累计学习 0 天</div>
+    </aside>
+    <main class="content" id="content"></main>
+  </div>
+  <script src="vendor/codemirror.min.js"></script>
+  <script src="vendor/clike.min.js"></script>
+  <script src="vendor/show-hint.min.js"></script>
+  <script src="vendor/closebrackets.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

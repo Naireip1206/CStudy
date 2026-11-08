@@ -1,0 +1,10 @@
+# 仓库里统一用 LF；Windows 检出时 .bat 保持 CRLF（否则 cmd 会把命令拆碎）
+* text=auto eol=lf
+*.bat text eol=crlf
+
+# 二进制资源，别做任何换行转换
+*.png binary
+*.ico binary
+*.exe binary
+*.zip binary
+*.deb binary

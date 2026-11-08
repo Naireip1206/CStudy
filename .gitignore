@@ -1,0 +1,36 @@
+# ===== 用户学习数据（不进仓库）=====
+progress.json
+progress.json.*
+progress.json.broken-*
+oj/
+ac/
+logs/
+_备份/
+
+# ===== 构建产物 =====
+build/
+dist/
+dist_onedir/
+release/
+*.spec
+
+# ===== 验收 / 临时产物 =====
+_verify/
+_backup/
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 第三方二进制（不是本项目源码）=====
+_tools/android/*.deb
+
+# ===== 杂项备份 =====
+*.bak
+*.bak2
+*.orig
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
